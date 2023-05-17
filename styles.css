@@ -1,0 +1,171 @@
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-family:'Roboto';
+    margin: 0;
+    min-height: 150vh;
+    background-color: rgb(117, 117, 117);
+}
+
+/* All content in each container will be centered with a min/max width & height to keep it the same no matter the screen size. */
+.content
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 50px;
+    max-height: 50px;
+    min-width: 800px;
+    max-width: 800px;
+}
+
+/* HEADER CONTAINER */
+.headerContainer
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.headerLogo
+{
+    font-weight: bolder;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.headerLinks
+{
+    display: flex;
+    font-size: small;
+    gap: 20px;
+}
+
+/* CONTAINER 1 */
+.container1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex:1;
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.container1 .content
+{
+    display: flex;
+    gap: 20px;
+}
+
+.container1 .item1
+{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 10px;
+    height: 250px;
+}
+
+.container1 .item1 .subheader
+{
+    flex: 2;
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.container1 .item1 .text1
+{
+    flex: 2;
+    font-size: 18px;
+}
+
+.container1 .item1 .signUpButton
+{
+    flex: 1;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 18px;
+    width: 30%;
+}
+
+.container1 .item2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    height: 250px;
+
+    background-color: #8b8e94;
+}
+
+/* CONTAINER 2 */
+.container2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex:1;
+    background-color:#F9FAF8;
+}
+
+.container2 .content
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #1F2937;
+}
+
+.container2 .content .item1
+{
+    display: flex;
+    gap: 50px;
+}
+
+.container2 .content .item1 .image
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 125px;
+    font-size: 12px;
+}
+
+/* CONTAINER 3 */
+.container3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex:1;
+    background-color:#E5E7EB;
+}
+
+img
+{
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+a
+{
+    text-decoration: none;
+    color: #E5E7EB;
+}
