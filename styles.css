@@ -140,9 +140,9 @@ body
 {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     text-align: center;
+    gap: 10px;
     width: 125px;
     font-size: 12px;
 }
@@ -156,6 +156,44 @@ body
     width: 100%;
     flex:1;
     background-color:#E5E7EB;
+}
+
+.container3 .content
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+.container3 .item1
+{
+    font-size: 32px;
+    font-style: italic;
+    color: #1F2937;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.container3 .item2
+{
+    align-self: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+/* CONTAINER 4 */
+.container4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex:1;
+    background-color:#F9FAF8;
 }
 
 img
